@@ -11,13 +11,13 @@ import java.util.Collections;
 import java.util.List;
 
 
-public class AlbumAdaptor extends RecyclerView.Adapter<AlbumHolder> {
+public class AlbumAdapter extends RecyclerView.Adapter<AlbumHolder> {
 
     List<Album> albumList = Collections.emptyList();
     Context context;
 
 
-    public AlbumAdaptor(List<Album> albumList, Context context) {
+    public AlbumAdapter(List<Album> albumList, Context context) {
         this.albumList = albumList;
         this.context = context;
     }

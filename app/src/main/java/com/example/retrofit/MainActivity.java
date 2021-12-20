@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                         RecyclerView recyclerContacts = (RecyclerView) findViewById(
                                 R.id.recyclerview_Albums);
-                        AlbumAdaptor adapter = new AlbumAdaptor(albumList,
+                        AlbumAdapter adapter = new AlbumAdapter(albumList,
                                 MainActivity.this);
                         recyclerContacts.setAdapter(adapter);
                         recyclerContacts.setLayoutManager(new LinearLayoutManager(
