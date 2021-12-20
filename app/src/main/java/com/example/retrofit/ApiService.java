@@ -9,6 +9,6 @@ public class ApiService {
     Retrofit get annotation with our URL
     And our method that will return us the List of ContactList
     */
-    @GET("https://jsonplaceholder.typicode.com/albums")
+    @GET("khardrix/Albums_db/db")
     Call<AlbumList> getAlbums();
 }

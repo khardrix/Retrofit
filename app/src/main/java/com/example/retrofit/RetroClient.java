@@ -8,7 +8,7 @@ public class RetroClient {
     /********
      * URLS
      *******/
-    private static final String ROOT_URL = "https://jsonplaceholder.typicode.com/albums";
+    private static final String ROOT_URL = "https://my-json-server.typicode.com/";
 
 
 
